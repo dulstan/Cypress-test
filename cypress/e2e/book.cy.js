@@ -49,7 +49,6 @@ describe("book", () => {
 
   it("should get a warning if date field is empty", () => {
     const inputs = [
-     
       { selector: '[name="time"]', value: "16:00" },
       { selector: ".booking-info__who", value: 2 },
       { selector: ".booking-info__lanes", value: 1 },
@@ -76,7 +75,6 @@ describe("book", () => {
       cy.get(".error-message").should("contain", "Fill out all the fields");
     });
   });
-
 
   it("should get a warning if time field is empty", () => {
     const inputs = [
@@ -139,12 +137,9 @@ describe("book", () => {
 
   it("should get a warning if lanes field is empty", () => {
     const inputs = [
-      
       { selector: ".booking-info__date", value: "2023-06-01" },
       { selector: '[name="time"]', value: "16:00" },
       { selector: ".booking-info__who", value: 2 },
-    
-
     ];
 
     cy.wait(1000);
@@ -168,8 +163,4 @@ describe("book", () => {
       cy.get(".error-message").should("contain", "Fill out all the fields");
     });
   });
-
-  
-
-
 });
