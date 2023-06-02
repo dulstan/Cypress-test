@@ -5,6 +5,7 @@ Som användare vill jag kunna boka datum och tid samt ange antal spelare så att
 - Man ska kunna välja en tid.
 - Man ska kunna ange hur många personer.
 - Man ska kunna välja antal banor man vill boka. 
+- Fel meddelande ifall ett fält är ej ifylld. 
 
 Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 - en knapp som man kan lägga till skor till bookningen. 
